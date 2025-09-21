@@ -13,7 +13,7 @@ Me llamo **Julissa**. Bienvenida/o a mi perfil de GitHub.
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=%2300BFFF&size=24&center=true&vCenter=true&width=800&height=60&lines=Estudiante+de+Ingeniería+en+Sistemas;Desarrolladora+UI+UX;Sistemas++Arduino;Redes+Cisco;Aprendizaje+Continuo+y+Colaborativo">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=%2300BFFF&size=24&center=true&vCenter=true&width=800&height=60&lines=Estudiante+de+Ingeniería+en+Sistemas;Desarrolladora+UI+UX;Sistemas+Arduino;Redes+Cisco;Aprendizaje+Continuo+y+Colaborativo">
   </a>
 </p>
 
@@ -21,31 +21,37 @@ Me llamo **Julissa**. Bienvenida/o a mi perfil de GitHub.
   <a href="https://github.com/JulissAtp/" align="center" ><img align="center"  alt="" src="https://visitor-badge.laobi.icu/badge?page_id=JulissAtp"></a>
 </p>
 
-  <img  align="center"  src="https://github-readme-stats.vercel.app/api?username=JulissAtp&theme=dark&show_icons=true&count_private=true" />
-  <br></br>
+<br>
 
-</td>
-
+<table align="center">
+<tr border="none">
 <td width="50%" align="center">
-
-  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=JulissAtp&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=10"/>
-  
-  </td>
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=JulissAtp&theme=dark&show_icons=true&count_private=true" />
+  <br>
+  <img title="🔥 Get streak stats for tu perfil en git.io/streak-stats" alt="Julissa streak" src="https://github-readme-streak-stats.herokuapp.com/?user=JulissAtp&theme=dark&hide_border=false" /> 
+</td>
+<td width="50%" align="center">
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=JulissAtp&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=10"/>
+</td>
 </tr>
 </table>
 
+---
+
 - 🎓 Estudiante en los últimos años de Ingeniería en Sistemas  
-- 💻 Me especializo en el implementacion UI UX
-- 🌐 Apasionada por construir Redes  
+- 💻 Me especializo en la implementación UI/UX
+- 🌐 Apasionada por construir redes  
 - 🔧 Diseño e implementación de proyectos con **Arduino**   
 - 🧠 En formación constante, siempre dispuesta a aprender nuevas tecnologías  
 - 🤝 Dispuesta a colaboraciones en proyectos de impacto educativo o social
 
- ### 💳 Github Profile Summary Card
+### 💳 Github Profile Summary Card
  
- <div align=center>
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JulissAtp&theme=github_dark)
- </div>
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JulissAtp&theme=github_dark" />
+</div>
+
+---
 
 ```python
 class Julissa:
@@ -55,12 +61,12 @@ class Julissa:
             "frontend": ["HTML", "Bootstrap", "CSS", "Next.js"],
             "embedded": ["Arduino", "Tinkercad", "ESP32", "Raspberry Pi"],
             "languages": ["C#", "Python", "Java", "JavaScript", "SQL"],
-            "databases": ["MySQL","SQLServer",],
+            "databases": ["MySQL", "SQLServer"],
             "tools": ["Git", "VSCode", "Proteus", "Figma"]
         }
 
     def build_project(self, type):
-        elif type == "iot":
+        if type == "iot":
             return ["Sensor", "Arduino/ESP32/Raspberry Pi", "Motor/Actuador", "LCD/Visualización"]
         elif type == "api":
             return ["FastAPI", "Django REST Framework", "Express", "Spring Boot"]
